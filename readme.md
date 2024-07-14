@@ -25,3 +25,9 @@ configurar no package.json a tag scripts substituindo para dev e o comando "tsx 
 
 para verificar se o servidor está rodando execute o comando "npm run dev"
 
+
+https://www.youtube.com/watch?v=hHM-hr9q4mo
+#Fastify
+Para instalar o pacote fastfy execute o comando abaixo que adicionara o pacote ao projeto
+npm install fastify
+

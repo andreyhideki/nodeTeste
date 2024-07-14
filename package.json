@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/http/server.ts"
+    "dev": "tsx watch src/http/server.ts",
+    "dev2": "node --watch --no-warnings src/http/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
     "@types/node": "^20.14.10",
     "tsx": "^4.16.2",
     "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1"
   }
 }
